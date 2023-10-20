@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patient xmlns="http://hl7.org/fhir">
+    <id value="PatientResourceInstanceName"/>
+    <extension url="http://hl7.org/fhir/StructureDefinition/resource-instance-name">
+        <valueString value="PatientResourceInstanceName from the resource-instance-name extension"/>
+    </extension>
+    <name>
+        <text value="Name As Text"/>
+        <family value="FamName"/>
+        <given value="GivenName"/>
+    </name>
+</Patient>
